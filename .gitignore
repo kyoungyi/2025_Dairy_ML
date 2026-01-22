@@ -1,0 +1,13 @@
+# data
+1_data/
+3_output/
+
+# virtual environment
+.venv/
+
+#python
+__pychche__/
+*.pyc
+.ipynb_checkpoints
+
+
