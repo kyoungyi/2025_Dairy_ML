@@ -25,19 +25,18 @@ The project directory is organized into the following subdirectories:
 - requirements.txt: specific python package versions used for analysis
   
 ## Steps to setp up the environment and install python functions
-'''bash
-# Clone the repository
+### 1. Clone the repository
 git clone https://github.com/kyoungyi/2025_Dairy_ML.git
 cd 2025_Dairy_ML
 
-# Create and activate a virtual environment
+### 2. Create and activate a virtual environment
 python3.10 -m venv .venv
 source .venv/bin/activate 
 
-# Install dependencies
+### 3. Install dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
 
-# Install the local utils package if a setup.py exists
+### 4. Install the local utils package if a setup.py exists
 pip install -e .
-'''
+
