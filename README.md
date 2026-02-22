@@ -26,15 +26,15 @@ The project directory is organized into the following subdirectories:
   
 ## Steps to setp up the environment and install python functions
 ### 1. Clone the repository
-git clone https://github.com/kyoungyi/2025_Dairy_ML.git
+git clone https://github.com/kyoungyi/2025_Dairy_ML.git <br>
 cd 2025_Dairy_ML
 
 ### 2. Create and activate a virtual environment
-python3.10 -m venv .venv
+python3.10 -m venv .venv<br>
 source .venv/bin/activate 
 
 ### 3. Install dependencies
-pip install --upgrade pip
+pip install --upgrade pip<br>
 pip install -r requirements.txt
 
 ### 4. Install the local utils package if a setup.py exists
