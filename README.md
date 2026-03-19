@@ -13,7 +13,8 @@ The project directory is organized into the following subdirectories:
      - milk records are from the Dairy Records Management Systems (DRMS) through a data sharing agreement. Due to a data confidentiality, these data cannot be made publicly available. Synthetic data mimicking the structure of original data are provided here with code.
     
 - 2_code:
-  - contains scripts for analyzing data and creating figures
+  - contains scripts for analyzing data and creating figures.
+  - Please run the Jupyter notebooks #1–#8. If using final_synthetic_df.gzip from 1_data, you may skip 1_creating_synthetic_data.ipynb. Total runtime is up to ~2 hours.
  
 - 2_utils:
   - contains code funtions
@@ -24,7 +25,7 @@ The project directory is organized into the following subdirectories:
 - requirements.in: specific python packates needed to run codes
 - requirements.txt: specific python package versions used for analysis
   
-## Steps to setp up the environment and install python functions
+## Steps to setp up the environment and install python functions (Expected: up to ~30 mins)
 ### 1. Fork this repository
 
 ### 2. Create and activate a virtual environment
