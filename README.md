@@ -15,6 +15,7 @@ The project directory is organized into the following subdirectories:
 - 2_code:
   - contains scripts for analyzing data and creating figures.
   - Please run the Jupyter notebooks #1–#8. If using final_synthetic_df.gzip from 1_data, you may skip 1_creating_synthetic_data.ipynb. Total runtime is up to ~2 hours.
+  - Please note that ranking/results may look different from the figures of the publication as it uses synthetic data.
  
 - 2_utils:
   - contains code funtions
@@ -25,7 +26,7 @@ The project directory is organized into the following subdirectories:
 - requirements.in: specific python packates needed to run codes
 - requirements.txt: specific python package versions used for analysis
   
-## Steps to setp up the environment and install python functions (Expected: up to ~30 mins)
+## Steps to setp up the environment and install python functions (Expected: up to ~10 mins)
 ### 1. Fork this repository
 
 ### 2. Create and activate a virtual environment
